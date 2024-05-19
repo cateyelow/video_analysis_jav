@@ -1,9 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import yt_dlp
-from utils.crawler import Crawling
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.by import By
 import os
 import asyncio
 from torrentp import TorrentDownloader
